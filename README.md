@@ -1,2 +1,2 @@
-# CSIT-121
-Class folder. CSIT 121
+# cit121
+Class folder. csit121
