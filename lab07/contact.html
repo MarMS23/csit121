@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+</head>
+<body>
+    <nav>
+        <a href="tierlist.html">Home</a> 
+        <a href="contact.html">Contact</a>
+        
+    </nav> 
+    <h1>Choose Your Favorite Candy</h1>
+    <fieldset>
+      <legend>Customer Information</legend>
+    <form method="get">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+      </form>
+      <br>
+      <form method="get">
+        <label for="email">E-mail:</label><br>
+        <input type="email"  name="email" id="email" required> 
+        <input type="reset" value="Reset">
+      </form> 
+      <br><br>
+      <form>
+        <label for="candy">Choose Candy:</label>
+        <select id="candy" name="candy">
+          <option value="skittles">Skittles</option>
+          <option value="kit kat">Kit Kat</option>
+          <option value="M&M's">M&M's</option>
+          <option value="reeses">Reeses</option>
+          <option value="twix">Twix</option>  
+        </select>
+       </form>
+      <br><br>
+      <form>
+     <label>Candy Selection</label><br><br>
+     <input type="radio" id="skittles" name="candy" value="skittles">
+    <label for="skittles">Skittles</label><br>
+    <input type="radio" id="kitkat" name="choose candy" value="kitkat">
+     <label for="kitkat">kit kat</label><br>
+    <input type="radio" id="M&M's" name="choose candy" value="M&M's">
+        <label for="M&M's">M&M's</label><br>
+        <input type="radio" id="reeses" name="choose candy" value="reeses">
+        <label for="reeses">Reeses</label><br>
+        <input type="radio" id="twix" name="choose candy" value="twix">
+        <label for="twix">Twix</label><br>
+        </form> 
+    </fieldset>
+      <br><br>
+     
+      <form>
+        <h2>Comments</h2>
+        <textarea name="message" rows="10" cols="30"></textarea>
+        <br><br>
+        <input type="submit" value="Contact">
+        <input type="reset">
+      </form>
+    
+</body>
+</html>
