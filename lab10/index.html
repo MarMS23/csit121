@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiobooks</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+       
+        
+        </style>
+        </head>
+<body>
+    <div id="fields"></div>
+    <header>
+    <div style="padding-left:16px">  
+    <h1>
+        Audiobooks
+ </h1>
+ </div>
+</header>
+<div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="how.html">How</a> 
+    <a href="What.html">What</a> 
+    <a href="why.html">Why</a>
+    <a href="source.html">Source</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+</div>
+      <main>
+        <p>
+       The introduction to audiobooks along with how
+       web standards affect audio books.
+       
+        </p>
+       </main>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>     
+</body>
+
+</html>
